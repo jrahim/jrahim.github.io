@@ -5,12 +5,20 @@
     <link>https://jrahim.github.io/publication/</link>
       <atom:link href="https://jrahim.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://jrahim.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Learning Coloured Transparent Object Matting</title>
+      <link>https://jrahim.github.io/publication/ctom-net/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/publication/ctom-net/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

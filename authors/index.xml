@@ -5,12 +5,20 @@
     <link>https://jrahim.github.io/authors/</link>
       <atom:link href="https://jrahim.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://jrahim.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong</title>
+      <link>https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>

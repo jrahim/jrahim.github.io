@@ -3,15 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jrahim.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
     <loc>https://jrahim.github.io/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://jrahim.github.io/authors/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jrahim.github.io/publication/ctom-net/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jrahim.github.io/publication/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jrahim.github.io/authors/admin/</loc>
   </url>
   
   <url>
@@ -24,10 +41,6 @@
   
   <url>
     <loc>https://jrahim.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://jrahim.github.io/publication/</loc>
   </url>
   
   <url>

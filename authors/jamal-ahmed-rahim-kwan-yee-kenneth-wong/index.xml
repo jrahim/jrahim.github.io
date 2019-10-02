@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
-    <link>https://jrahim.github.io/</link>
-      <atom:link href="https://jrahim.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
+    <title>Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong | Academic</title>
+    <link>https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/</link>
+      <atom:link href="https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/index.xml" rel="self" type="application/rss+xml" />
+    <description>Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
-      <title>Academic</title>
-      <link>https://jrahim.github.io/</link>
+      <title>Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong</title>
+      <link>https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/</link>
     </image>
     
     <item>

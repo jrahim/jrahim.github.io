@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Professor of Artificial Intelligence">
+  <meta name="description" content="This paper proposes a deep learning based method for colored transparent object matting from a single image. Existing approaches for transparent object matting often require multiple images and long processing times, which greatly hinder their applications on real-world transparent objects. The recently proposed TOM-Net can produce a matte for a colorless transparent object from a single image in a single fast feedforward pass. In this paper, we extend TOM-Net to handle colored transparent object by modeling the intrinsic color of a transparent object with a color filter. We formulate the problem of colored transparent object matting as simultaneously estimating an object mask, a color filter, and a refractive flow from a single image, and present a deep learning framework for learning this task. We create a large-scale synthetic dataset for training our network. We also capture a real dataset for evaluation. Experiments on both synthetic and real datasets show promising results, which demonstrate the effectiveness of our method.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jrahim.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://jrahim.github.io/publication/ctom-net/">
 
   
 
@@ -96,49 +96,98 @@
 
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Academic">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://jrahim.github.io/authors/">
+  <link rel="canonical" href="https://jrahim.github.io/publication/ctom-net/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Academic">
-  <meta property="og:url" content="https://jrahim.github.io/authors/">
-  <meta property="og:title" content="Authors | Academic">
-  <meta property="og:description" content="Professor of Artificial Intelligence"><meta property="og:image" content="https://jrahim.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://jrahim.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://jrahim.github.io/publication/ctom-net/">
+  <meta property="og:title" content="Learning Coloured Transparent Object Matting | Academic">
+  <meta property="og:description" content="This paper proposes a deep learning based method for colored transparent object matting from a single image. Existing approaches for transparent object matting often require multiple images and long processing times, which greatly hinder their applications on real-world transparent objects. The recently proposed TOM-Net can produce a matte for a colorless transparent object from a single image in a single fast feedforward pass. In this paper, we extend TOM-Net to handle colored transparent object by modeling the intrinsic color of a transparent object with a color filter. We formulate the problem of colored transparent object matting as simultaneously estimating an object mask, a color filter, and a refractive flow from a single image, and present a deep learning framework for learning this task. We create a large-scale synthetic dataset for training our network. We also capture a real dataset for evaluation. Experiments on both synthetic and real datasets show promising results, which demonstrate the effectiveness of our method."><meta property="og:image" content="https://jrahim.github.io/publication/ctom-net/featured.png">
+  <meta property="twitter:image" content="https://jrahim.github.io/publication/ctom-net/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-10-02T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-10-02T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2019-10-02T00:00:00&#43;00:00">
   
-
-  
-
-
-
 
   
 
 
+    
+
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jrahim.github.io/publication/ctom-net/"
+  },
+  "headline": "Learning Coloured Transparent Object Matting",
+  
+  "image": [
+    "https://jrahim.github.io/publication/ctom-net/featured.png"
+  ],
+  
+  "datePublished": "2019-10-02T00:00:00Z",
+  "dateModified": "2019-10-02T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Academic",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://jrahim.github.io/img/icon-512.png"
+    }
+  },
+  "description": "This paper proposes a deep learning based method for colored transparent object matting from a single image. Existing approaches for transparent object matting often require multiple images and long processing times, which greatly hinder their applications on real-world transparent objects. The recently proposed TOM-Net can produce a matte for a colorless transparent object from a single image in a single fast feedforward pass. In this paper, we extend TOM-Net to handle colored transparent object by modeling the intrinsic color of a transparent object with a color filter. We formulate the problem of colored transparent object matting as simultaneously estimating an object mask, a color filter, and a refractive flow from a single image, and present a deep learning framework for learning this task. We create a large-scale synthetic dataset for training our network. We also capture a real dataset for evaluation. Experiments on both synthetic and real datasets show promising results, which demonstrate the effectiveness of our method."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
   
 
 
 
 
 
-  <title>Authors | Academic</title>
+  <title>Learning Coloured Transparent Object Matting | Academic</title>
 
 </head>
 
@@ -370,53 +419,306 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>Authors</h1>
+
+
+<div class="article-container pt-3">
+  <h1>Learning Coloured Transparent Object Matting</h1>
 
   
 
   
-</div>
 
 
 
-<div class="universal-wrapper">
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/">Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong</a></span>
+
+  </div>
+  
   
 
-  <ul>
+  
+  <span class="article-date">
     
     
       
-      <li><a href="https://jrahim.github.io/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/">Jamal Ahmed Rahim, Kwan-Yee Kenneth Wong</a></li>
+    
+    October 2019
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
     
       
-      <li><a href="https://jrahim.github.io/authors/admin/">Nelson Bighetti</a></li>
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://jrahim.github.io/publication/ctom-net/&amp;text=Learning%20Coloured%20Transparent%20Object%20Matting" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://jrahim.github.io/publication/ctom-net/&amp;t=Learning%20Coloured%20Transparent%20Object%20Matting" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Learning%20Coloured%20Transparent%20Object%20Matting&amp;body=https://jrahim.github.io/publication/ctom-net/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://jrahim.github.io/publication/ctom-net/&amp;title=Learning%20Coloured%20Transparent%20Object%20Matting" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Learning%20Coloured%20Transparent%20Object%20Matting%20https://jrahim.github.io/publication/ctom-net/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://jrahim.github.io/publication/ctom-net/&amp;title=Learning%20Coloured%20Transparent%20Object%20Matting" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
     
   </ul>
+</div>
+
 
   
 
 </div>
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/ctom-net/CTOM-Net.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 276px;">
+  <div style="position: relative">
+    <img src="/publication/ctom-net/featured_hu835263730ca6beadfc9c212ce8380f0f_2206440_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">This paper proposes a deep learning based method for colored transparent object matting from a single image. Existing approaches for transparent object matting often require multiple images and long processing times, which greatly hinder their applications on real-world transparent objects. The recently proposed TOM-Net can produce a matte for a colorless transparent object from a single image in a single fast feedforward pass. In this paper, we extend TOM-Net to handle colored transparent object by modeling the intrinsic color of a transparent object with a color filter. We formulate the problem of colored transparent object matting as simultaneously estimating an object mask, a color filter, and a refractive flow from a single image, and present a deep learning framework for learning this task. We create a large-scale synthetic dataset for training our network. We also capture a real dataset for evaluation. Experiments on both synthetic and real datasets show promising results, which demonstrate the effectiveness of our method.</p>
+    
+
+    
+
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+  
+  <div class="media author-card">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/authors/jamal-ahmed-rahim-kwan-yee-kenneth-wong/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+    
+
+
+  </div>
+</div>
+
+
 
       
 
