@@ -13,11 +13,12 @@
     </image>
     
     <item>
-      <title>Jamal Ahmed Rahim</title>
-      <link>https://jrahim.github.io/authors/jamal-ahmed-rahim/</link>
+      <title></title>
+      <link>https://jrahim.github.io/authors/admin/</link>
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://jrahim.github.io/authors/jamal-ahmed-rahim/</guid>
-      <description></description>
+      <guid>https://jrahim.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a first year PhD student at Simon Fraser University under the supervision of Dr. Ping Tan. My research area is computer vision and I am quite excited to be conducting research in one of the best computer vision research labs. I hope to one day have a career in academics and research.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -26,15 +27,6 @@
       <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/kwan-yee-kenneth-wong/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://jrahim.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jrahim.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a first year PhD student at Simon Fraser University under the supervision of Dr. Ping Tan. My research area is computer vision and I am quite excited to be conducting research in one of the best computer vision research labs. I hope to one day have a career in academics and research.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
