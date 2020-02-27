@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jamal Ahmed Rahim</title>
-    <link>https://jrahim.github.io/authors/admin/</link>
-      <atom:link href="https://jrahim.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Jamal Ahmed Rahim</description>
+    <title>Zhaopeng Cui | Jamal Ahmed Rahim</title>
+    <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
+      <atom:link href="https://jrahim.github.io/authors/zhaopeng-cui/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhaopeng Cui</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
-      <title>Jamal Ahmed Rahim</title>
-      <link>https://jrahim.github.io/authors/admin/</link>
+      <title>Zhaopeng Cui</title>
+      <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://jrahim.github.io/publication/dfnrmvs/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/publication/dfnrmvs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Learning Coloured Transparent Object Matting</title>
-      <link>https://jrahim.github.io/publication/ctom-net/</link>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://jrahim.github.io/publication/ctom-net/</guid>
       <description></description>
     </item>
     

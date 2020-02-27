@@ -5,12 +5,20 @@
     <link>https://jrahim.github.io/</link>
       <atom:link href="https://jrahim.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jamal Ahmed Rahim</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
       <title>Jamal Ahmed Rahim</title>
       <link>https://jrahim.github.io/</link>
     </image>
+    
+    <item>
+      <title>Deep Facial Non-Rigid Multi-View Stereo</title>
+      <link>https://jrahim.github.io/publication/dfnrmvs/</link>
+      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/publication/dfnrmvs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning Coloured Transparent Object Matting</title>
