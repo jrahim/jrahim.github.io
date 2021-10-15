@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zhaopeng Cui | Jamal Ahmed Rahim</title>
-    <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
-      <atom:link href="https://jrahim.github.io/authors/zhaopeng-cui/index.xml" rel="self" type="application/rss+xml" />
-    <description>Zhaopeng Cui</description>
+    <title>Luwei Yang | Jamal Ahmed Rahim</title>
+    <link>https://jrahim.github.io/authors/luwei-yang/</link>
+      <atom:link href="https://jrahim.github.io/authors/luwei-yang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luwei Yang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
-      <title>Zhaopeng Cui</title>
-      <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
+      <title>Luwei Yang</title>
+      <link>https://jrahim.github.io/authors/luwei-yang/</link>
     </image>
-    
-    <item>
-      <title>Deep Facial Non-Rigid Multi-View Stereo</title>
-      <link>https://jrahim.github.io/publication/dfnrmvs/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://jrahim.github.io/publication/dfnrmvs/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>End-to-End Rotation Averaging with Multi-Source Propagation</title>

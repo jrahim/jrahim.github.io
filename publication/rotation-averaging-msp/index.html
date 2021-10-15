@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We present a method for 3D face reconstruction from multi-view images with different expressions. We formulate this problem from the perspective of non-rigid multi-view stereo (NRMVS). Unlike previous learning-based methods, which often regress the face shape directly, our method optimizes the 3D face shape by explicitly enforcing multiview appearance consistency, which is known to be effective in recovering shape details according to conventional multi-view stereo methods. Furthermore, by estimating face shape through optimization based on multi-view consistency, our method can potentially have better generalization to unseen data. However, this optimization is challenging since each input image has a different expression. We facilitate it with a CNN network that learns to regularize the non-rigid 3D face according to the input image and preliminary optimization results. Extensive experiments show that our method achieves the state-of-the-art performance on various datasets and generalizes well to the data in the wild.">
+  <meta name="description" content="This paper presents an end-to-end neural network for multiple rotation averaging in SfM. Due to the manifold constraint of rotations, conventional methods usually take two separate steps involving spanning tree based initialization and iterative nonlinear optimization respectively. These methods can suffer from bad initializations due to the noisy spanning tree or outliers in input relative rotations. To handle these problems, we propose to integrate initialization and optimization together in an unified graph neural network via a novel differentiable multi-source propagation module. Specifically, our network utilizes the image context and geometric cues in feature correspondences to reduce the impact of outliers. Furthermore, unlike the methods that utilize the spanning tree to initialize orientations according to a single reference node in a top-down manner, our network initializes orientations according to multiple sources while utilizing information from all neighbors in a differentiable way. More importantly, our end-to-end formulation also enables iterative re-weighting of input relative orientations at test time to improve the accuracy of the final estimation by minimizing the impact of outliers. We demonstrate the effectiveness of our method on two real-world datasets, achieving state-of-the-art performance.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://jrahim.github.io/publication/dfnrmvs/">
+  <link rel="alternate" hreflang="en-us" href="https://jrahim.github.io/publication/rotation-averaging-msp/">
 
   
 
@@ -101,7 +101,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://jrahim.github.io/publication/dfnrmvs/">
+  <link rel="canonical" href="https://jrahim.github.io/publication/rotation-averaging-msp/">
 
   
   
@@ -113,10 +113,10 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Jamal Ahmed Rahim">
-  <meta property="og:url" content="https://jrahim.github.io/publication/dfnrmvs/">
-  <meta property="og:title" content="Deep Facial Non-Rigid Multi-View Stereo | Jamal Ahmed Rahim">
-  <meta property="og:description" content="We present a method for 3D face reconstruction from multi-view images with different expressions. We formulate this problem from the perspective of non-rigid multi-view stereo (NRMVS). Unlike previous learning-based methods, which often regress the face shape directly, our method optimizes the 3D face shape by explicitly enforcing multiview appearance consistency, which is known to be effective in recovering shape details according to conventional multi-view stereo methods. Furthermore, by estimating face shape through optimization based on multi-view consistency, our method can potentially have better generalization to unseen data. However, this optimization is challenging since each input image has a different expression. We facilitate it with a CNN network that learns to regularize the non-rigid 3D face according to the input image and preliminary optimization results. Extensive experiments show that our method achieves the state-of-the-art performance on various datasets and generalizes well to the data in the wild."><meta property="og:image" content="https://jrahim.github.io/publication/dfnrmvs/featured.png">
-  <meta property="twitter:image" content="https://jrahim.github.io/publication/dfnrmvs/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://jrahim.github.io/publication/rotation-averaging-msp/">
+  <meta property="og:title" content="End-to-End Rotation Averaging with Multi-Source Propagation | Jamal Ahmed Rahim">
+  <meta property="og:description" content="This paper presents an end-to-end neural network for multiple rotation averaging in SfM. Due to the manifold constraint of rotations, conventional methods usually take two separate steps involving spanning tree based initialization and iterative nonlinear optimization respectively. These methods can suffer from bad initializations due to the noisy spanning tree or outliers in input relative rotations. To handle these problems, we propose to integrate initialization and optimization together in an unified graph neural network via a novel differentiable multi-source propagation module. Specifically, our network utilizes the image context and geometric cues in feature correspondences to reduce the impact of outliers. Furthermore, unlike the methods that utilize the spanning tree to initialize orientations according to a single reference node in a top-down manner, our network initializes orientations according to multiple sources while utilizing information from all neighbors in a differentiable way. More importantly, our end-to-end formulation also enables iterative re-weighting of input relative orientations at test time to improve the accuracy of the final estimation by minimizing the impact of outliers. We demonstrate the effectiveness of our method on two real-world datasets, achieving state-of-the-art performance."><meta property="og:image" content="https://jrahim.github.io/publication/rotation-averaging-msp/featured.png">
+  <meta property="twitter:image" content="https://jrahim.github.io/publication/rotation-averaging-msp/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-02-27T00:00:00&#43;00:00">
@@ -145,12 +145,12 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://jrahim.github.io/publication/dfnrmvs/"
+    "@id": "https://jrahim.github.io/publication/rotation-averaging-msp/"
   },
-  "headline": "Deep Facial Non-Rigid Multi-View Stereo",
+  "headline": "End-to-End Rotation Averaging with Multi-Source Propagation",
   
   "image": [
-    "https://jrahim.github.io/publication/dfnrmvs/featured.png"
+    "https://jrahim.github.io/publication/rotation-averaging-msp/featured.png"
   ],
   
   "datePublished": "2020-02-27T00:00:00Z",
@@ -158,7 +158,7 @@
   
   "author": {
     "@type": "Person",
-    "name": "Ziqian Bai"
+    "name": "Luwei Yang"
   },
   
   "publisher": {
@@ -169,7 +169,7 @@
       "url": "https://jrahim.github.io/img/icon-512.png"
     }
   },
-  "description": "We present a method for 3D face reconstruction from multi-view images with different expressions. We formulate this problem from the perspective of non-rigid multi-view stereo (NRMVS). Unlike previous learning-based methods, which often regress the face shape directly, our method optimizes the 3D face shape by explicitly enforcing multiview appearance consistency, which is known to be effective in recovering shape details according to conventional multi-view stereo methods. Furthermore, by estimating face shape through optimization based on multi-view consistency, our method can potentially have better generalization to unseen data. However, this optimization is challenging since each input image has a different expression. We facilitate it with a CNN network that learns to regularize the non-rigid 3D face according to the input image and preliminary optimization results. Extensive experiments show that our method achieves the state-of-the-art performance on various datasets and generalizes well to the data in the wild."
+  "description": "This paper presents an end-to-end neural network for multiple rotation averaging in SfM. Due to the manifold constraint of rotations, conventional methods usually take two separate steps involving spanning tree based initialization and iterative nonlinear optimization respectively. These methods can suffer from bad initializations due to the noisy spanning tree or outliers in input relative rotations. To handle these problems, we propose to integrate initialization and optimization together in an unified graph neural network via a novel differentiable multi-source propagation module. Specifically, our network utilizes the image context and geometric cues in feature correspondences to reduce the impact of outliers. Furthermore, unlike the methods that utilize the spanning tree to initialize orientations according to a single reference node in a top-down manner, our network initializes orientations according to multiple sources while utilizing information from all neighbors in a differentiable way. More importantly, our end-to-end formulation also enables iterative re-weighting of input relative orientations at test time to improve the accuracy of the final estimation by minimizing the impact of outliers. We demonstrate the effectiveness of our method on two real-world datasets, achieving state-of-the-art performance."
 }
 </script>
 
@@ -187,7 +187,7 @@
 
 
 
-  <title>Deep Facial Non-Rigid Multi-View Stereo | Jamal Ahmed Rahim</title>
+  <title>End-to-End Rotation Averaging with Multi-Source Propagation | Jamal Ahmed Rahim</title>
 
 </head>
 
@@ -386,10 +386,12 @@
 
   
   
+    
+  
 
 
 <div class="article-container pt-3">
-  <h1>Deep Facial Non-Rigid Multi-View Stereo</h1>
+  <h1>End-to-End Rotation Averaging with Multi-Source Propagation</h1>
 
   
 
@@ -409,7 +411,7 @@
 
 
   
-  <span><a href="/authors/ziqian-bai/">Ziqian Bai</a></span>, <span><a href="/authors/zhaopeng-cui/">Zhaopeng Cui</a></span>, <span><a href="/authors/admin/">Jamal Ahmed Rahim</a></span>, <span><a href="/authors/xiaoming-liu/">Xiaoming Liu</a></span>, <span><a href="/authors/ping-tan/">Ping Tan</a></span>
+  <span><a href="/authors/luwei-yang/">Luwei Yang</a></span>, <span><a href="/authors/heng-li/">Heng Li</a></span>, <span><a href="/authors/admin/">Jamal Ahmed Rahim</a></span>, <span><a href="/authors/zhaopeng-cui/">Zhaopeng Cui</a></span>, <span><a href="/authors/ping-tan/">Ping Tan</a></span>
 
   </div>
   
@@ -449,7 +451,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://jrahim.github.io/publication/dfnrmvs/&amp;text=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://jrahim.github.io/publication/rotation-averaging-msp/&amp;text=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -462,7 +464,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://jrahim.github.io/publication/dfnrmvs/&amp;t=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://jrahim.github.io/publication/rotation-averaging-msp/&amp;t=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -475,7 +477,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo&amp;body=https://jrahim.github.io/publication/dfnrmvs/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation&amp;body=https://jrahim.github.io/publication/rotation-averaging-msp/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -488,7 +490,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://jrahim.github.io/publication/dfnrmvs/&amp;title=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://jrahim.github.io/publication/rotation-averaging-msp/&amp;title=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -501,7 +503,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo%20https://jrahim.github.io/publication/dfnrmvs/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation%20https://jrahim.github.io/publication/rotation-averaging-msp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -514,7 +516,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://jrahim.github.io/publication/dfnrmvs/&amp;title=Deep%20Facial%20Non-Rigid%20Multi-View%20Stereo" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://jrahim.github.io/publication/rotation-averaging-msp/&amp;title=End-to-End%20Rotation%20Averaging%20with%20Multi-Source%20Propagation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -558,7 +560,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/dfnrmvs/DFNRMVS.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/rotation-averaging-msp/rotation-averaging-msp.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -584,9 +586,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 708px; max-height: 627px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 221px;">
   <div style="position: relative">
-    <img src="/publication/dfnrmvs/featured.png" alt="" class="featured-image">
+    <img src="/publication/rotation-averaging-msp/featured_hu411b5fb213f4005872ae5864245560fc_305638_720x0_resize_lanczos_2.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -597,7 +599,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We present a method for 3D face reconstruction from multi-view images with different expressions. We formulate this problem from the perspective of non-rigid multi-view stereo (NRMVS). Unlike previous learning-based methods, which often regress the face shape directly, our method optimizes the 3D face shape by explicitly enforcing multiview appearance consistency, which is known to be effective in recovering shape details according to conventional multi-view stereo methods. Furthermore, by estimating face shape through optimization based on multi-view consistency, our method can potentially have better generalization to unseen data. However, this optimization is challenging since each input image has a different expression. We facilitate it with a CNN network that learns to regularize the non-rigid 3D face according to the input image and preliminary optimization results. Extensive experiments show that our method achieves the state-of-the-art performance on various datasets and generalizes well to the data in the wild.</p>
+    <p class="pub-abstract">This paper presents an end-to-end neural network for multiple rotation averaging in SfM. Due to the manifold constraint of rotations, conventional methods usually take two separate steps involving spanning tree based initialization and iterative nonlinear optimization respectively. These methods can suffer from bad initializations due to the noisy spanning tree or outliers in input relative rotations. To handle these problems, we propose to integrate initialization and optimization together in an unified graph neural network via a novel differentiable multi-source propagation module. Specifically, our network utilizes the image context and geometric cues in feature correspondences to reduce the impact of outliers. Furthermore, unlike the methods that utilize the spanning tree to initialize orientations according to a single reference node in a top-down manner, our network initializes orientations according to multiple sources while utilizing information from all neighbors in a differentiable way. More importantly, our end-to-end formulation also enables iterative re-weighting of input relative orientations at test time to improve the accuracy of the final estimation by minimizing the impact of outliers. We demonstrate the effectiveness of our method on two real-world datasets, achieving state-of-the-art performance.</p>
     
 
     
@@ -627,7 +629,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In <em>Conference on Computer Vision and Pattern Recognition 2020</em></div>
+          <div class="col-12 col-md-9">In <em>Conference on Computer Vision and Pattern Recognition 2021</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -670,7 +672,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/ziqian-bai/"></a></h5>
+      <h5 class="card-title"><a href="/authors/luwei-yang/"></a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
