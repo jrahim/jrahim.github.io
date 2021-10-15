@@ -5,7 +5,7 @@
     <link>https://jrahim.github.io/authors/</link>
       <atom:link href="https://jrahim.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 27 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jrahim.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>https://jrahim.github.io/authors/admin/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m a first year PhD student at Simon Fraser University under the supervision of Dr. Ping Tan. My research area is computer vision and I am quite excited to be conducting research in one of the best computer vision research labs. I hope to one day have a career in academics and research.&lt;/p&gt;
 </description>
@@ -24,7 +24,7 @@
     <item>
       <title>Heng Li</title>
       <link>https://jrahim.github.io/authors/heng-li/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/heng-li/</guid>
       <description></description>
     </item>
@@ -32,7 +32,7 @@
     <item>
       <title>Luwei Yang</title>
       <link>https://jrahim.github.io/authors/luwei-yang/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/luwei-yang/</guid>
       <description></description>
     </item>
@@ -40,8 +40,16 @@
     <item>
       <title>Ping Tan</title>
       <link>https://jrahim.github.io/authors/ping-tan/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/ping-tan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhaopeng Cui</title>
+      <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/authors/zhaopeng-cui/</guid>
       <description></description>
     </item>
     
@@ -50,14 +58,6 @@
       <link>https://jrahim.github.io/authors/xiaoming-liu/</link>
       <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://jrahim.github.io/authors/xiaoming-liu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Zhaopeng Cui</title>
-      <link>https://jrahim.github.io/authors/zhaopeng-cui/</link>
-      <pubDate>Thu, 27 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://jrahim.github.io/authors/zhaopeng-cui/</guid>
       <description></description>
     </item>
     
