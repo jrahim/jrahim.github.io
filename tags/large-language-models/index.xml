@@ -54,5 +54,13 @@
 </description>
     </item>
     
+    <item>
+      <title>An example conference paper</title>
+      <link>https://jrahim.github.io/publication/rotation-averaging-msp/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/publication/rotation-averaging-msp/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
