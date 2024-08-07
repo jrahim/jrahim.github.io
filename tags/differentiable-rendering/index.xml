@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Differentiable Rendering | Jamal Ahmed Rahim</title>
+    <link>https://jrahim.github.io/tags/differentiable-rendering/</link>
+      <atom:link href="https://jrahim.github.io/tags/differentiable-rendering/index.xml" rel="self" type="application/rss+xml" />
+    <description>Differentiable Rendering</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Aug 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jrahim.github.io/media/icon_hu10882632819039119860.png</url>
+      <title>Differentiable Rendering</title>
+      <link>https://jrahim.github.io/tags/differentiable-rendering/</link>
+    </image>
+    
+    <item>
+      <title>SAgA-NeRF: Subject-Agnostic and Animatable Neural Radiance Fields for Human Avatar</title>
+      <link>https://jrahim.github.io/publication/saga-nerf/</link>
+      <pubDate>Wed, 31 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/publication/saga-nerf/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
