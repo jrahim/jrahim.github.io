@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convolutional Neural Networks | Jamal Ahmed Rahim</title>
+    <link>https://jrahim.github.io/tags/convolutional-neural-networks/</link>
+      <atom:link href="https://jrahim.github.io/tags/convolutional-neural-networks/index.xml" rel="self" type="application/rss+xml" />
+    <description>Convolutional Neural Networks</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://jrahim.github.io/media/icon_hu10882632819039119860.png</url>
+      <title>Convolutional Neural Networks</title>
+      <link>https://jrahim.github.io/tags/convolutional-neural-networks/</link>
+    </image>
+    
+    <item>
+      <title>Learning Coloured Transparent Object Matting</title>
+      <link>https://jrahim.github.io/publication/ctom-net/</link>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://jrahim.github.io/publication/ctom-net/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

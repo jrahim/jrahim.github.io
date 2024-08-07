@@ -146,20 +146,56 @@
     <lastmod>2022-08-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jrahim.github.io/publication/ctom-net/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://jrahim.github.io/publication/dfnrmvs/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://jrahim.github.io/tags/3d-reconstruction/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://jrahim.github.io/publication/rotation-averaging-msp/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://jrahim.github.io/tags/large-language-models/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://jrahim.github.io/tags/graph-convolution-networks/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/rotation-averaging/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/structore-from-motion/</loc>
+    <lastmod>2021-06-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/3d-face-reconstruction/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/convolutional-neural-networks-networks/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/publication/dfnrmvs/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/state-of0the-art/</loc>
+    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/convolutional-neural-networks/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/publication/ctom-net/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/object-matting/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://jrahim.github.io/tags/transparent-objjects/</loc>
+    <lastmod>2019-10-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
